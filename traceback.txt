@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 614, in script
+    Oli "'Желаю тебе сил и терпения во взрослой жизни, беспрерывного прогресса в своих делах и хобби, чтобы каждый новый день ты становилась на 1% лучше и не забывать, что мы все тебя любим.'"
+ValueError: unsupported format character '?' (0x43b) at index 138
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 614, in script
+    Oli "'Желаю тебе сил и терпения во взрослой жизни, беспрерывного прогресса в своих делах и хобби, чтобы каждый новый день ты становилась на 1% лучше и не забывать, что мы все тебя любим.'"
+  File "D:\renpy\renpy-7.3.5-sdk\renpy\ast.py", line 708, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy\renpy-7.3.5-sdk\renpy\exports.py", line 1334, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character '?' (0x43b) at index 138
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+Flashbacks 
+Wed Mar 25 12:08:45 2020
